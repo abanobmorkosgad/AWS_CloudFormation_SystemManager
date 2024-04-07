@@ -1,5 +1,5 @@
 schemaVersion: '2.2'
-description: install nginx
+description: install nginx webserver
 parameters: {}
 mainSteps:
   - action: aws:runShellScript
