@@ -42,3 +42,4 @@ This project demonstrates the deployment of a scalable AWS cloud infrastructure 
 ## Usage
 - After deployment, access the application using the ALB DNS name.
 - configure instances usibg SystemManager
+- Monitor the instances and traffic using CloudWatch metrics and logs.
