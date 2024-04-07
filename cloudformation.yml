@@ -135,12 +135,6 @@ Resources:
           sudo yum update -y
           sudo yum install -y amazon-ssm-agent
           sudo yum install -y amazon-cloudwatch-agent
-          sudo systemctl start amazon-ssm-agent
-          sudo systemctl enable amazon-ssm-agent
-          sudo systemctl start amazon-cloudwatch-agent
-          sudo systemctl enable amazon-cloudwatch-agent
-
-  
 
   EC2AutoScalingGroup:
     Type: AWS::AutoScaling::AutoScalingGroup
