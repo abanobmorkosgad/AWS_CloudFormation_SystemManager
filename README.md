@@ -11,10 +11,10 @@ This project demonstrates the deployment of a scalable AWS cloud infrastructure 
 ## Deployment Steps
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
-3. Modify the CloudFormation template (`template.yml`) if necessary, updating parameters like region, prefix, etc.
+3. Modify the CloudFormation template (`cloudformation.yml`) if necessary, updating parameters like region, prefix, etc.
 4. Deploy the stack using the AWS CLI:
     ```bash
-    aws cloudformation deploy --template-file template.yml --stack-name my-aws-infrastructure --capabilities CAPABILITY_IAM
+    aws cloudformation deploy --template-file cloudformation.yml --stack-name my-aws-infrastructure --capabilities CAPABILITY_IAM
     ```
 5. Wait for the stack creation to complete.
 
